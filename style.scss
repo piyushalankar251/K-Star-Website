@@ -11,12 +11,13 @@
     padding: 2.5rem 3.25rem 0 3.25rem;
     background: transparent linear-gradient(0deg, #000428 0%, #004E92 100%) 0% 0% no-repeat padding-box;
     position: relative;
+    overflow: hidden;
     .top-logos{
       display: flex;
       justify-content: space-between;
       img{
-        width: 90px;
-        height: 70px;
+        width: 70px;
+        height: 50px;
       }
     }
     .center-part{
@@ -31,10 +32,10 @@
         margin-bottom: 10px;
       }
       h1{
-        font-size: 5.5rem;
+        font-size: 4.5rem;
         color: #fff;
         margin-bottom: 0.5rem;
-        letter-spacing: 10px;
+        letter-spacing: 15px;
       }
       p{
         color: #fff;
@@ -43,10 +44,13 @@
     }
     .bottom-part{
       width: 100%;
-      img{
-        position: absolute;
-        height: 200px;
-      }
+     .bottom-cloud{
+       position: absolute;
+       width: 110vw;
+       height: 600px;
+       bottom: -120px;
+       left: -8px;
+     }
     }
     .planes{
       img{
